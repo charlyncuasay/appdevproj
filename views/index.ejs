@@ -9,8 +9,8 @@
 
     <form action="/save" method="POST">
         <h3>Create Product</h3>
-        <label for="name">Name:</label>
-        <input type="text" name ="name" placeholder="name" required>
+        <label for="product">Product:</label>
+        <input type="text" name ="product" placeholder="product" required>
         <br>
         <label for="description">Description:</label>
         <input type="text" name ="description" placeholder="description" required>
@@ -23,6 +23,7 @@
         <input type="int" name ="quantity" placeholder="quantity" required>
         <br>
         <input type="submit" value="save">
+        <a href="/crud" type="button">Show Records</a>
     </form>
 </body>
 </html>
